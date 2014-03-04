@@ -10,6 +10,7 @@
 # Command Line History (newest to oldest):
 :wq
 :q
+:Q
 
 # Search String History (newest to oldest):
 
@@ -22,23 +23,28 @@
 # Registers:
 
 # File marks:
-'0  15  0  ~/config.js
-'1  1  0  ~/config.
-'2  3  21  /etc/nginx/conf.d/default.conf
-'3  45  26  ~/config.js
-'4  1  0  ~/con
-'5  141  0  ~/config.js
-'6  45  0  ~/README.md
+'0  141  23  ~/config.js
+'1  1  0  ~/config.js
+'2  1  0  ~/content/themes/casper/index.hbs
+'3  1  0  ~/index.js
+'4  15  0  ~/config.js
+'5  1  0  ~/config.
+'6  3  21  /etc/nginx/conf.d/default.conf
+'7  45  26  ~/config.js
+'8  1  0  ~/con
+'9  45  0  ~/README.md
 
 # Jumplist (newest first):
--'  15  0  ~/config.js
+-'  141  23  ~/config.js
 -'  1  0  ~/config.js
+-'  1  0  ~/content/themes/casper/index.hbs
+-'  1  0  ~/index.js
+-'  15  0  ~/config.js
 -'  1  0  ~/config.
 -'  3  21  /etc/nginx/conf.d/default.conf
 -'  1  0  /etc/nginx/conf.d/default.conf
 -'  45  26  ~/config.js
 -'  1  0  ~/con
--'  141  0  ~/config.js
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
@@ -121,14 +127,25 @@
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
+-'  1  0  ~/config.
+-'  3  21  /etc/nginx/conf.d/default.conf
+-'  1  0  /etc/nginx/conf.d/default.conf
+-'  1  0  ~/content/themes/casper/index.hbs
 
 # History of marks within files (newest to oldest):
 
 > ~/config.js
-	"	15	0
-	^	45	27
-	.	11	26
+	"	141	23
+	^	141	24
+	.	47	25
 	+	11	26
+	+	47	25
+
+> ~/content/themes/casper/index.hbs
+	"	1	0
+
+> ~/index.js
+	"	1	0
 
 > ~/config.
 	"	1	0
