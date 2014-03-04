@@ -1,0 +1,40 @@
+{
+  "name": "grunt-shell",
+  "version": "0.6.4",
+  "description": "Run shell commands",
+  "keywords": [
+    "gruntplugin",
+    "shell",
+    "command",
+    "cmd",
+    "exec",
+    "spawn",
+    "process",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "files": [
+    "tasks/shell.js"
+  ],
+  "repository": "sindresorhus/grunt-shell.git",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "chalk": "~0.3.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
