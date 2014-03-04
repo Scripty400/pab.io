@@ -22,54 +22,101 @@
 # Registers:
 
 # File marks:
-'0  45  26  ~/config.js
-'1  1  0  ~/con
-'2  141  0  ~/config.js
-'3  1  0  ~/config.
-'4  45  0  ~/README.md
+'0  15  0  ~/config.js
+'1  1  0  ~/config.
+'2  3  21  /etc/nginx/conf.d/default.conf
+'3  45  26  ~/config.js
+'4  1  0  ~/con
+'5  141  0  ~/config.js
+'6  45  0  ~/README.md
 
 # Jumplist (newest first):
--'  45  26  ~/config.js
+-'  15  0  ~/config.js
 -'  1  0  ~/config.js
+-'  1  0  ~/config.
+-'  3  21  /etc/nginx/conf.d/default.conf
+-'  1  0  /etc/nginx/conf.d/default.conf
+-'  45  26  ~/config.js
 -'  1  0  ~/con
 -'  141  0  ~/config.js
--'  1  0  ~/config.
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
--'  1  0  ~/config.
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
--'  1  0  ~/config.
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
--'  1  0  ~/config.
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  1  0  ~/con
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  1  0  ~/con
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  1  0  ~/con
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  45  0  ~/README.md
+-'  1  0  ~/README.md
+-'  3  21  /etc/nginx/conf.d/default.conf
+-'  1  0  /etc/nginx/conf.d/default.conf
+-'  1  0  ~/con
 -'  1  0  ~/config.
+-'  3  21  /etc/nginx/conf.d/default.conf
+-'  1  0  /etc/nginx/conf.d/default.conf
+-'  1  0  ~/con
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
--'  1  0  ~/config.
--'  45  0  ~/README.md
--'  1  0  ~/README.md
--'  45  0  ~/README.md
--'  1  0  ~/README.md
--'  1  0  ~/config.
--'  45  0  ~/README.md
--'  1  0  ~/README.md
--'  45  0  ~/README.md
--'  1  0  ~/README.md
--'  1  0  ~/config.
 -'  45  0  ~/README.md
 -'  1  0  ~/README.md
 -'  45  0  ~/README.md
@@ -78,15 +125,21 @@
 # History of marks within files (newest to oldest):
 
 > ~/config.js
-	"	45	26
+	"	15	0
 	^	45	27
 	.	11	26
 	+	11	26
 
-> ~/con
+> ~/config.
 	"	1	0
 
-> ~/config.
+> /etc/nginx/conf.d/default.conf
+	"	3	21
+	^	3	22
+	.	3	21
+	+	3	21
+
+> ~/con
 	"	1	0
 
 > ~/README.md
