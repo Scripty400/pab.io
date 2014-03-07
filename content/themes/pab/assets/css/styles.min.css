@@ -4987,5 +4987,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body, html {
+  height: 100%; }
+
 header {
+  height: 100%;
   color: #eeeeee; }

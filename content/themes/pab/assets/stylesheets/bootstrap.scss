@@ -48,6 +48,11 @@
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
 
+body, html {
+    height: 100%;
+}
+
 header {
+    height: 100%;
     color: $gray-lighter;
 }
