@@ -8,8 +8,8 @@ var notify = require('gulp-notify');
 
 var paths = {
     scripts: {
-        src: 'remind_me/remind_me/js/*.js',
-        dest: 'remind_me/static/js'
+        src: 'content/themes/pab/assets/javascripts/**/*.js',
+        dest: 'content/themes/pab/assets/js'
     },
     styles: {
         src: 'content/themes/pab/assets/stylesheets/*.scss',

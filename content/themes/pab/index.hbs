@@ -5,7 +5,7 @@
 
 {{! The big featured header on the homepage, with the site logo and description }}
 <header class="site-head">
-    <div class="jumbotron" {{#if @blog.cover}}style="background: url({{@blog.cover}}) fixed center no-repeat"{{/if}}>
+    <div class="jumbotron jumbo-flex" {{#if @blog.cover}}style="background: url({{@blog.cover}}) fixed center no-repeat"{{/if}}>
         <div class="container">
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
