@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
     {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/monokai.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
 
@@ -30,8 +31,7 @@
     <footer class="site-footer">
         <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a>
         <div class="inner">
-             <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
-             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
+             <section class="poweredby">Runs on <a href="http://nodejs.org">node.js</a> via <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
         </div>
     </footer>
 
@@ -40,7 +40,9 @@
 
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+    <script src="{{asset "js/highlight.pack.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 </html>

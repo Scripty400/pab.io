@@ -9,6 +9,7 @@
     $(document).ready(function(){
 
         $(".post-content").fitVids();
+        $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
 
     });
 

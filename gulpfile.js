@@ -12,7 +12,7 @@ var paths = {
         dest: 'content/themes/pab/assets/js'
     },
     styles: {
-        src: 'content/themes/pab/assets/stylesheets/*.scss',
+        src: 'content/themes/pab/assets/stylesheets/**/*.scss',
         dest: 'content/themes/pab/assets/css'
     }
 };
@@ -41,7 +41,7 @@ gulp.task('scripts', function() {
  * styles: minify and concat sass files.
  */
 gulp.task('styles', function() {
-    return gulp.src(paths.styles.src)
+    return gulp.src('content/themes/pab/assets/stylesheets/*.scss')
         .pipe(sass())
         .pipe(concat('styles.min.css'))
         .pipe(gulp.dest(paths.styles.dest))
