@@ -91,7 +91,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Alegreya', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #3A4145;
@@ -114,7 +114,8 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
 }
 
 h1 {
@@ -203,11 +204,12 @@ blockquote {
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
     border-left: #4a4a4a 0.4em solid;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
 }
 
 blockquote p {
     margin: 0.8em 0;
-    font-style: italic;
 }
 
 blockquote small {
