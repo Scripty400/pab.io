@@ -1,0 +1,41 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! The big featured header on the homepage, with the site logo and description }}
+<div class="vertical jumbotron"  {{#if @blog.cover}}style="background: url({{@blog.cover}}) fixed;background-size: cover;"{{/if}}>
+    <div class="container">
+    <div class="site-head-content inner" style="color:white">
+        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+        <h1 class="blog-title"><a href="/">{{@blog.title}}</a></h1>
+        <h2 class="blog-description">{{@blog.description}}</h2>
+    </div>
+</div>
+</div>
+{{! The main content area on the homepage }}
+<main class="container" role="main">
+
+    {{! Each post will be output using this markup }}
+    {{#foreach posts}}
+
+    <article class="{{post_class}}">
+        <header class="post-header">
+            <h2 class="post-title">
+                <a href="{{url}}">{{{title}}}</a>
+                <small class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMM DD, YYYY"}}</time> {{tags prefix="on "}}</small>
+            </h2>
+
+        </header>
+        <section class="post-excerpt">
+            <p>{{excerpt}}&hellip;</p>
+        </section>
+    </article>
+
+
+    {{/foreach}}
+
+    {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}}
+
+</main>
